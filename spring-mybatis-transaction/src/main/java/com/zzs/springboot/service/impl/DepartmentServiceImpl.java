@@ -25,7 +25,7 @@ public class DepartmentServiceImpl implements DepartmentService {
     @Override
     public int insertDept(Department department) {
         int i = departmentMapper.insertDept(department);
-        int a = 1/0;
+        int a = 1 / 0;
         return i;
     }
 
